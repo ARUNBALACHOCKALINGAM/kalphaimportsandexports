@@ -1,0 +1,22 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "xml.validation.filters": [
+        {
+            "pattern": "**.exsd",
+            "noGrammar": "ignore",
+            "schema": {
+                "enabled": "never"
+            }
+        },
+        {
+            "pattern": "**{.project,.classpath,plugin.xml,feature.xml,category.xml,.target,.product}",
+            "noGrammar": "ignore"
+        }
+    ],
+    "eslint.codeActionsOnSave.rules": null
+}
